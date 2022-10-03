@@ -5,12 +5,17 @@
 directory structure be like:
 ```
 work dictionary/
-└── input/
+└── input/      <---input folder
+|   └── home/
+|   |   └── style/
+|   |   |   └── example.css ... 
+|   |   └── example.html
+|   |
 |   └── style/
-|       └── example1.css ...        resource
-|   └── example1.html
-|   └── example2.html ...
-└── output/
+|   |   └── example.css ...
+|   └── example.html
+|
+└── output/     <---output folder
 └── converter.exe
 ```
 
@@ -30,3 +35,5 @@ visited|active|hover|focus|link|root|in-range|invalid|valid|after|before|selecti
 ## 1.1.0
 ### Add
 - support for links in other flies
+- nested dictionary are support
+    
